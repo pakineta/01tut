@@ -8,6 +8,6 @@ export const Header = ({title}) => {
   )
 }
 Header.defaultProps = {
-title:'LISTAXXX' 
+title:'LISTA' 
 }
 export default Header;
