@@ -1,11 +1,6 @@
 {
   "items": [
     {
-      "id": 1,
-      "checked": true,
-      "item": "Almonds, Unsalted, in the blue bag"
-    },
-    {
       "id": 2,
       "checked": true,
       "item": "Burguer"
@@ -19,11 +14,6 @@
       "id": 4,
       "checked": true,
       "item": "ass"
-    },
-    {
-      "id": 5,
-      "checked": true,
-      "item": "12121"
     }
   ]
 }
