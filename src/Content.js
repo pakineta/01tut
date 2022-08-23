@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import ItemList from './itemList';
 
 const Content = ({items, handleCheck, handleDelete}) => {
 
   return (
-    <main>
+    <>
       {items.length ? (
         <ItemList 
           items={items}
@@ -15,7 +15,7 @@ const Content = ({items, handleCheck, handleDelete}) => {
   ) : (
         <p style={{marginTop:'2rem'}}>Lista Vacia</p>
       )}
-    </main>
+    </>
   )
 }
 export default Content;
